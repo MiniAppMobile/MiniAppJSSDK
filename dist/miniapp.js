@@ -812,7 +812,7 @@ if (!/mobile/i.test(navigator.userAgent)){
             }
         });
 
-        setTimeout(function(){panel.show();}, 8001);
+        setTimeout(function(){panel.show();}, 8000);
     });
 
 
