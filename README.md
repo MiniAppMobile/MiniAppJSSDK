@@ -2,7 +2,7 @@
 
 Miniapp is a mobile advertising technology that enables a one-of-a-kind reading experience from select news publishers. The technology contextualizes the reading experience to provide readers relevant links called “miniapps”. These miniapps give the user access to actionable content that he/she might be interested in according to the related article. The user can therefore reach the brands and services that he/she loves without ever having to leave the app or download another one.  With this unique feature, Miniapp provides a seamless and more efficient mobile experience
 
-To add miniapp SDK to your site
+To add MiniAppJS SDK to your site
 
 Include miniapp.min.js in your webpage:
 
