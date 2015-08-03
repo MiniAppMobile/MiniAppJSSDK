@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body style="margin: 0; height: 100vh">
+    <iframe id="frame" width="100%" height="100%" style="border: none"></iframe>
+    <script>
+        document.body.onload = function(){
+            var url = document.location.href.match(/\?url=([^&]*)/)[1];
+            var f = document.getElementById("frame");
+            f.onload = function(){
+                window.top.postMessage({miniappFrameReady: true, url:url}, "*");
+            };
+            f.src = url;
+        };
+    </script>
+</body>
+</html>
